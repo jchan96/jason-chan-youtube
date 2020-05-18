@@ -1,0 +1,120 @@
+//small
+.Comments {
+  // display: flex;
+  // border: 2px solid black;
+  padding: 0rem 1rem;
+  &__comment {
+    // border: 2px solid black;
+    border-bottom: 1px solid $mercury;
+    display: flex;
+    margin-top: 1.5rem;
+    &-imgWrap {
+      &-img {
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        margin-right: 1rem;
+      }
+    }
+    &-wordsWrap {
+      &-nameDate {
+        // border: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+        // &-name {
+        // }
+        &-date {
+          color: $silver;
+        }
+      }
+      &-description {
+        padding-bottom: 1.5rem;
+      }
+    }
+  }
+}
+
+//medium
+@include medium {
+  .Comments {
+    // display: flex;
+    // border: 2px solid black;
+    padding: 0rem 1rem;
+    &__comment {
+      // border: 2px solid black;
+      border-bottom: 1px solid $mercury;
+      display: flex;
+      margin-top: 1.5rem;
+      &-imgWrap {
+        &-img {
+          border-radius: 50%;
+          width: 3rem;
+          height: 3rem;
+          margin-right: 1rem;
+        }
+      }
+      &-wordsWrap {
+        width: 39rem;
+        // border: 2px solid black;
+        &-nameDate {
+          // border: 2px solid black;
+          display: flex;
+          justify-content: flex-start;
+          padding-bottom: 1rem;
+          &-name {
+            margin-right: 0.5rem;
+          }
+          &-date {
+            color: $silver;
+          }
+        }
+        &-description {
+          padding-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+//medium
+@include large {
+  .Comments {
+    // display: flex;
+    // border: 2px solid black;
+    padding: 0rem 1rem;
+    &__comment {
+      // border: 2px solid black;
+      border-bottom: 1px solid $mercury;
+      display: flex;
+      margin-top: 1.5rem;
+      &-imgWrap {
+        &-img {
+          border-radius: 50%;
+          width: 3rem;
+          height: 3rem;
+          margin-right: 1rem;
+        }
+      }
+      &-wordsWrap {
+        width: 44.5rem;
+        // border: 2px solid black;
+        &-nameDate {
+          // border: 2px solid black;
+          display: flex;
+          justify-content: flex-start;
+          padding-bottom: 1rem;
+          &-name {
+            margin-right: 0.5rem;
+          }
+          &-date {
+            color: $silver;
+          }
+        }
+        &-description {
+          padding-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}

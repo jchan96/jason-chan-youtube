@@ -1,0 +1,21 @@
+//App2
+@include large {
+  .App2 {
+    display: flex;
+    padding: 0rem 11.25rem;
+    // &__leftWrap {
+    // }
+    .HeroDescription {
+      padding: 0rem;
+    }
+    .CommentsForm {
+      padding: 0rem;
+    }
+    .Comments {
+      padding: 0rem;
+    }
+    .NextVideo {
+      border-left: 2px solid $mercury;
+    }
+  }
+}

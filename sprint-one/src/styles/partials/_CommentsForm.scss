@@ -1,0 +1,266 @@
+//small
+.CommentsForm {
+  // border: 2px solid black;
+  padding: 0rem 1rem;
+  // padding: 5%;
+  display: flex;
+  flex-direction: column;
+  &__title {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    padding-top: 1.25rem;
+  }
+  &__wrap {
+    // display: flex;
+    &-form {
+      border-bottom: 1px solid $mercury;
+      // width: 18rem;
+      // border: 2px solid black;
+      display: flex;
+      // flex-direction: column;
+      // &-wrap {
+      //   display: flex;
+      &-imgWrap {
+        display: flex;
+        justify-content: center;
+        // padding-right: 1.5rem;
+        // border: 2px solid black;
+        &-img {
+          margin-top: 3.5rem;
+          margin-right: 1rem;
+          border-radius: 50%;
+          width: 3rem;
+          height: 3rem;
+        }
+      }
+      &-wordsWrap {
+        // border: 2px solid black;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        &-title {
+          // width: 9.75rem;
+          // padding-left: 3.35rem;
+          padding-top: 2rem;
+          padding-bottom: 0.5rem;
+          font-size: 0.25‬rem;
+          line-height: 1‬rem;
+          color: $silver;
+        }
+        &-textAreaButtonWrap {
+          width: 100%;
+          border: 2px;
+          &-textAreaWrap {
+            padding-right: 1.5rem;
+            // border: 2px solid black;
+            &-textArea {
+              height: 4rem;
+              background-color: $alabaster;
+              border: 2px solid $mercury;
+              resize: none;
+              width: 99.5%;
+              border-radius: 0.4rem;
+              padding: 0.75rem;
+              // padding: 1rem;
+              margin-bottom: 0.5rem;
+              &:focus {
+                outline: none;
+                border-color: $brainflix-light-blue;
+              }
+            }
+          }
+          &-buttonWrap {
+            // margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+            &-button {
+              height: 1.5rem;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//medium
+@include medium {
+  .CommentsForm {
+    // border: 2px solid black;
+    padding: 0rem 1rem;
+    // padding: 5%;
+    display: flex;
+    flex-direction: column;
+    &__title {
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+      padding-top: 4rem;
+    }
+    &__wrap {
+      // display: flex;
+      &-form {
+        border-bottom: 1px solid $mercury;
+        // width: ;
+        // border: 2px solid black;
+        display: flex;
+        // flex-direction: column;
+        // &-wrap {
+        //   display: flex;
+        &-imgWrap {
+          display: flex;
+          justify-content: center;
+          // padding-right: 1.5rem;
+          // border: 2px solid black;
+          &-img {
+            margin-top: 3.5rem;
+            margin-right: 0.65rem;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+          }
+        }
+        &-wordsWrap {
+          // border: 2px solid black;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          &-title {
+            // width: 9.75rem;
+            // padding-left: 3.35rem;
+            padding-top: 2rem;
+            padding-bottom: 0.5rem;
+            font-size: 0.25‬rem;
+            line-height: 1‬rem;
+            color: $silver;
+          }
+          &-textAreaButtonWrap {
+            display: flex;
+            // border: 2px solid black;
+            &-textAreaWrap {
+              padding-right: 1rem;
+              // border: 2px solid black;
+              &-textArea {
+                background-color: $alabaster;
+                // border: 2px solid black;
+                border: 2px solid $mercury;
+                resize: none;
+                height: 1.5rem;
+                width: 27.5rem;
+                border-radius: 0.4rem;
+                padding: 0.75rem;
+                // padding: 1rem;
+                // margin-bottom: 1rem;
+              }
+            }
+            &-buttonWrap {
+              // border: 2px solid black;
+              height: 100%;
+              width: 9.5rem;
+              // margin-top: 0.5rem;
+              margin-bottom: 1.5rem;
+              padding-right: 2.5rem;
+              // position: relative;
+              // bottom: 1%;
+              &-button {
+                // height: 5rem;
+                // padding: 0rem 10rem;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+//large
+@include large {
+  .CommentsForm {
+    // border: 2px solid black;
+    padding: 0rem 1rem;
+    // padding: 5%;
+    display: flex;
+    flex-direction: column;
+    &__title {
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+      padding-top: 4rem;
+    }
+    &__wrap {
+      // display: flex;
+      &-form {
+        border-bottom: 1px solid $mercury;
+        // width: ;
+        // border: 2px solid black;
+        display: flex;
+        // flex-direction: column;
+        // &-wrap {
+        //   display: flex;
+        &-imgWrap {
+          display: flex;
+          justify-content: center;
+          // padding-right: 1.5rem;
+          // border: 2px solid black;
+          &-img {
+            margin-top: 3.5rem;
+            margin-right: 0.65rem;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+          }
+        }
+        &-wordsWrap {
+          // border: 2px solid black;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          &-title {
+            // width: 9.75rem;
+            // padding-left: 3.35rem;
+            padding-top: 2rem;
+            padding-bottom: 0.5rem;
+            font-size: 0.25‬rem;
+            line-height: 1‬rem;
+            color: $silver;
+          }
+          &-textAreaButtonWrap {
+            display: flex;
+            // border: 2px solid black;
+            &-textAreaWrap {
+              padding-right: 1rem;
+              // border: 2px solid black;
+              &-textArea {
+                background-color: $alabaster;
+                // border: 2px solid black;
+                border: 2px solid $mercury;
+                resize: none;
+                height: 1.5rem;
+                width: 27.5rem;
+                border-radius: 0.4rem;
+                padding: 0.75rem;
+                // padding: 1rem;
+                // margin-bottom: 1rem;
+              }
+            }
+            &-buttonWrap {
+              // border: 2px solid black;
+              height: 5vh;
+              width: 100%;
+              // margin-top: 0.5rem;
+              margin-bottom: 1.5rem;
+              padding-right: 2.5rem;
+              // position: relative;
+              // bottom: 1%;
+              &-button {
+                // height: 100%;
+                // padding: 0rem 10rem;
+                width: 10rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

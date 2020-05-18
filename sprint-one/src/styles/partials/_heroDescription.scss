@@ -1,0 +1,264 @@
+//small
+.HeroDescription {
+  // border: 2px solid black;
+  padding: 0rem 1rem;
+  &__title {
+    padding-top: 2rem;
+    // width: 55vw;
+    // border: 2px solid black;
+    font-family: "avenir-bold";
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  &__byDateViewsLikes {
+    border-bottom: 1px solid $mercury;
+    margin-bottom: 1.5rem;
+    // border: 2px solid black;
+    &-byDate {
+      padding-top: 1rem;
+      display: flex;
+      // border: 2px solid black;
+      &-by {
+        // border: 2px solid black;
+        font-size: 0.75‬rem;
+        line-height: 1.25‬rem;
+        margin-right: 0.5rem;
+      }
+      &-date {
+        color: $silver;
+        // border: 2px solid black;
+        font-size: 0.75‬rem;
+        line-height: 1.25‬rem;
+      }
+    }
+    &-viewsLikes {
+      display: flex;
+      // justify-content: flex-start;
+      padding-top: 2rem;
+      padding-bottom: 1.5rem;
+      // margin-bottom: 1.5rem;
+      // border: 2px solid black;
+      &-views {
+        // width: 25%;
+        flex: 0.5;
+        // border: 2px solid black;
+        display: flex;
+        justify-content: flex-start;
+        // &-imgWrap {
+        //   // border: 2px solid black;
+        // }
+        &-number {
+          // border: 2px solid black;
+          font-size: 0.75‬rem;
+          line-height: 1.25‬rem;
+          margin-left: 0.5rem;
+        }
+      }
+      &-likes {
+        // width: 25%;
+        display: flex;
+        flex: 0.5;
+        // border: 2px solid black;
+        // &-imgWrap {
+        //   // border: 2px solid black;
+        //   // &-img {
+        //   //   // border: 2px solid black;
+        //   // }
+        // }
+        &-number {
+          margin-left: 0.5rem;
+          // border: 2px solid black;
+          font-size: 0.75‬rem;
+          line-height: 1.25‬rem;
+        }
+      }
+    }
+  }
+  &__description {
+    // border: 2px solid black;
+    font-size: 0.75‬rem;
+    line-height: 1.25‬rem;
+  }
+}
+
+//medium
+@include medium {
+  .HeroDescription {
+    // border: 2px solid black;
+    padding: 0rem 1rem;
+    &__title {
+      padding-top: 3rem;
+      // width: 55vw;
+      // border: 2px solid black;
+      font-family: "avenir-bold";
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    &__byDateViewsLikes {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid $mercury;
+      margin-bottom: 1.5rem;
+      // border: 2px solid black;
+      &-byDate {
+        // padding-top: 1.5rem;
+        display: flex;
+        // align-items: center;
+        // border: 2px solid black;
+        &-by {
+          // border: 2px solid black;
+          font-size: 0.75‬rem;
+          line-height: 1.25‬rem;
+          margin-right: 0.5rem;
+        }
+        &-date {
+          color: $silver;
+          // border: 2px solid black;
+          font-size: 0.75‬rem;
+          line-height: 1.25‬rem;
+        }
+      }
+      &-viewsLikes {
+        display: flex;
+        align-items: center;
+        // justify-content: flex-start;
+        // padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        // margin-bottom: 1.5rem;
+        // border: 2px solid black;
+        &-views {
+          // width: 25%;
+          flex: 0.5;
+          // border: 2px solid black;
+          display: flex;
+          justify-content: flex-start;
+          // &-imgWrap {
+          //   // border: 2px solid black;
+          // }
+          &-number {
+            // border: 2px solid black;
+            font-size: 0.875‬rem;
+            line-height: 1.375rem;
+            margin-left: 0.5rem;
+            margin-right: 1.5rem;
+          }
+        }
+        &-likes {
+          // width: 25%;
+          display: flex;
+          flex: 0.5;
+          // border: 2px solid black;
+          // &-imgWrap {
+          //   // border: 2px solid black;
+          //   // &-img {
+          //   //   // border: 2px solid black;
+          //   // }
+          // }
+          &-number {
+            margin-left: 0.5rem;
+            // border: 2px solid black;
+            font-size: 0.875‬rem;
+            line-height: 1.375rem;
+          }
+        }
+      }
+    }
+    &__description {
+      // border: 2px solid black;
+      font-size: 0.875‬rem;
+      line-height: 1.375rem;
+    }
+  }
+}
+
+//medium
+@include large {
+  .HeroDescription {
+    // border: 2px solid black;
+    padding: 0rem 1rem;
+    &__title {
+      padding-top: 3rem;
+      // width: 55vw;
+      // border: 2px solid black;
+      font-family: "avenir-bold";
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+    &__byDateViewsLikes {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid $mercury;
+      margin-bottom: 1.5rem;
+      // border: 2px solid black;
+      &-byDate {
+        // padding-top: 1.5rem;
+        display: flex;
+        // align-items: center;
+        // border: 2px solid black;
+        &-by {
+          // border: 2px solid black;
+          font-size: 0.75‬rem;
+          line-height: 1.25‬rem;
+          margin-right: 0.5rem;
+        }
+        &-date {
+          color: $silver;
+          // border: 2px solid black;
+          font-size: 0.75‬rem;
+          line-height: 1.25‬rem;
+        }
+      }
+      &-viewsLikes {
+        display: flex;
+        align-items: center;
+        // justify-content: flex-start;
+        // padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        // margin-bottom: 1.5rem;
+        // border: 2px solid black;
+        &-views {
+          // width: 25%;
+          flex: 0.5;
+          // border: 2px solid black;
+          display: flex;
+          justify-content: flex-start;
+          // &-imgWrap {
+          //   // border: 2px solid black;
+          // }
+          &-number {
+            // border: 2px solid black;
+            font-size: 0.875‬rem;
+            line-height: 1.375rem;
+            margin-left: 0.5rem;
+            margin-right: 1.5rem;
+          }
+        }
+        &-likes {
+          // width: 25%;
+          display: flex;
+          flex: 0.5;
+          // border: 2px solid black;
+          // &-imgWrap {
+          //   // border: 2px solid black;
+          //   // &-img {
+          //   //   // border: 2px solid black;
+          //   // }
+          // }
+          &-number {
+            margin-left: 0.5rem;
+            // border: 2px solid black;
+            font-size: 0.875‬rem;
+            line-height: 1.375rem;
+          }
+        }
+      }
+    }
+    &__description {
+      // border: 2px solid black;
+      font-size: 0.875‬rem;
+      line-height: 1.375rem;
+    }
+  }
+}
