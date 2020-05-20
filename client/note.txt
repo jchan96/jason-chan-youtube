@@ -1,0 +1,13 @@
+get app.js working 
+
+put html into app.js
+
+get next videos working
+
+css
+    font changes from med to lar
+
+can we css the play, legnth, full screen
+
+how to show the images
+

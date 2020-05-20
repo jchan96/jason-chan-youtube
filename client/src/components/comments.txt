@@ -1,0 +1,22 @@
+   // <div className="Comments__comment">
+      //   <div className="Comments__comment-imgWrap">
+      //     <img
+      //       className="Comments__comment-imgWrap-img"
+      //       src={comments.image}
+      //       alt=""
+      //     />
+      //   </div>
+      //   <div className="Comments__comment-wordsWrap">
+      //     <div className="Comments__comment-wordsWrap-nameDate">
+      //       <h4 className="Comments__comment-wordsWrap-nameDate-name">
+      //         {comments.name}
+      //       </h4>
+      //       <p className="Comments__comment-wordsWrap-nameDate-date">
+      //         {comments.timestamp}
+      //       </p>
+      //     </div>
+      //     <p className="Comments__comment-wordsWrap-description">
+      //       {comments.comment}
+      //     </p>
+      //   </div>
+      // </div>
